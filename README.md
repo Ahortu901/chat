@@ -10,7 +10,7 @@
 ```
 This project was built with react js and chatengine.io
 the chart is set to be a group chat where users are added to the community.
-A user can only gain access if only the Admin grants the user by add his or her details to database
+A user can only gain access if only the Admin grants the user by adding his or her details to database
 ```
 ## Technologies and Languages required for the web application:
 - HTML, CSS, REACT
