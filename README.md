@@ -6,11 +6,11 @@
 ``This Project was inspired by other chat application like Microsoft Teams``
 
 ![image](https://github.com/Ahortu901/chat/blob/master/ui/first.png)
-# About Our Project
+# About Our Project Ad How it works:
 ```
 This project was built with react js and chatengine.io
-the chart is set to be a group chat where users are added to the community
-
+the chart is set to be a group chat where users are added to the community.
+A user can only gain access if only the Admin grants the user by add his or her details to database
 ```
 ## Technologies and Languages required for the web application:
 - HTML, CSS, REACT
@@ -36,6 +36,8 @@ In the project directory, you can run on localhost:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+## Application Delopment:
+Our application has been deloped using ``vercel`` you can [click here](https://chat-delta-five.vercel.app/) test it..
 # Help Us fix Bug :bug:
 [Report Bugs](mailto:ahortuderrick0@gmail.com)
   
