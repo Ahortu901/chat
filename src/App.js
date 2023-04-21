@@ -9,6 +9,7 @@ const App = () => {
         projectID="b27134b4-8136-4bfa-9589-a244a39f69ae"
         userName="Derrick"
         userSecret="alxchat"
+        renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
       />
     );
   };
