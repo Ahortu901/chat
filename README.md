@@ -31,6 +31,9 @@ Currently all user stories are being handled by team using the current trello bo
 ## Available Scripts
 
 In the project directory, you can run on localhost:
+```
+npm install i
+```
 ### `npm start`
 
 Runs the app in the development mode.\

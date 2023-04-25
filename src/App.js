@@ -2,22 +2,25 @@ import { ChatEngine } from 'react-chat-engine';
 
 import ChatFeed from './components/ChatFeed';
 import LoginForm from './components/LoginForm';
-
 import './App.css';
 
+const projectID = "d5861e11-aff9-44bb-8aea-33f2bf77a5ac";
+
 const App = () => {
-    if (!localStorage.getItem('username')) return <LoginForm />;
-    return (
-      <ChatEngine
-        height="100vh"
-        projectID="b27134b4-8136-4bfa-9589-a244a39f69ae"
-        userName={localStorage.getItem('Username')}
-        userSecret={localStorage.getItem('Password')}
-        renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
-      />
-    );
-  };
-  
-  // infinite scroll, logout, more customizations...
-  
-  export default App;
+  if (!localStorage.getItem('username')) return <LoginForm />;
+
+  return (
+    <ChatEngine
+      height="100vh"
+      projectID={projectID}
+      userName={localStorage.getItem('username')}
+      userSecret={localStorage.getItem('password')}
+      renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
+      onNewMessage={() => new Audio('https://chat-engine-assets.s3.amazonaws.com/click.mp3').play()}
+    />
+  );
+};
+
+// infinite scroll, logout, more customizations...
+
+export default App;
