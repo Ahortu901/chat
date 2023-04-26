@@ -38,8 +38,8 @@ const Modal = () => {
               <span>Start chatting</span>
             </button>
           </div>
+          <h1 className='error'>{error}</h1>
         </form>
-        <h1>{error}</h1>
       </div>
     </div>
 

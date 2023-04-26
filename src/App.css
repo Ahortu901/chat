@@ -7,7 +7,7 @@
   }
   
   .ce-chat-list {
-    background-color: rgb(240, 240, 240) !important;
+    background-color: rgb(198, 195, 195) !important;
   }
   
   .ce-chats-container {
@@ -15,7 +15,7 @@
   }
   
   .ce-active-chat-card {
-    background-color: #cabcdc !important;
+    background-color: #aa9dbc !important;
     border: 4px solid #cabcdc !important;
     border-radius: 0px !important;
   }
