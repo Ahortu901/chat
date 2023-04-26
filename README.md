@@ -30,6 +30,7 @@ A user can only gain access if only the Admin grants the user by adding his or h
 Currently all user stories are being handled by team using the current trello board for the project. It can be viewed [here](https://trello.com/invite/b/AvgaHYXX/ATTI2646f00e98aa23568342699c8e0803424389B2F5/portfolio-project-pitch)
 ## Available Scripts
 
+
 In the project directory, you can run on localhost:
 ```
 npm install i
@@ -40,7 +41,7 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Application Delopment:
-Our application has been deloped using ``vercel`` you can [click here](https://chat-delta-five.vercel.app/) test it..
+Our application has been deloped using ``vercel`` you can [Click Me](https://chat-ahortu901.vercel.app/) to test it..
 # Help Us fix Bug :bug:
 [Report Bugs](mailto:ahortuderrick0@gmail.com)
   
